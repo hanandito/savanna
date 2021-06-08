@@ -21,6 +21,9 @@ p{font-family: "Montserrat Regular";}
 .text-dark-blue{
   color: #113447;
 }
+.bg-dark-blue{
+  background-color: #073544;
+}
 .text-red{
   color: #D06A51;
 }
