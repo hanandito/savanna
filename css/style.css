@@ -22,3 +22,10 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: "Montserrat Medium";}
   bottom: 30%;
   transform: translate(-50%);
 }
+.about-section{
+  background-image: url(../images/background-about-section-03.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+}
