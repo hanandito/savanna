@@ -1,0 +1,15 @@
+*{
+  transition: all .3s;
+}
+@font-face{
+  font-family: "Roboto Light";
+  src: url(Roboto-Light.ttf) format("truetype");
+}
+@font-face{
+  font-family: "TitilliumWeb Regular";
+  src: url(TitilliumWeb-Regular.ttf) format("truetype");
+}
+@font-face{
+  font-family: "TitilliumWeb Italic Regular";
+  src: url(TitilliumWeb-ExtraLightItalic.ttf) format("truetype");
+}
