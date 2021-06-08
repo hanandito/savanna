@@ -5,7 +5,12 @@
   font-family: "Montserrat Medium";
   src: url(Montserrat-Medium.ttf) format("truetype");
 }
-h1, h2, h3, h4, h5, h6, p, a {font-family: "Montserrat Medium";}
+@font-face{
+  font-family: "Montserrat Regular";
+  src: url(Montserrat-Regular.ttf) format("truetype");
+}
+h1, h2, h3, h4, h5, h6, a {font-family: "Montserrat Medium";}
+p{font-family: "Montserrat Regular";}
 .nav-savanna {
   position: absolute;
   z-index: 2;
@@ -15,6 +20,9 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: "Montserrat Medium";}
 }
 .text-dark-blue{
   color: #113447;
+}
+.text-red{
+  color: #D06A51;
 }
 .header .wrap-title{
   position: absolute;
@@ -27,5 +35,11 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: "Montserrat Medium";}
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 200px;
+  padding-top: 700px;
+  padding-bottom: 100px;
+}
+.button-red{
+  background-color: #D06A51;
+  color: #fff;
+  border-radius: 5px;
 }
