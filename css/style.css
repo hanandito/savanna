@@ -32,7 +32,7 @@ p{font-family: "Montserrat Regular";}
 }
 .about-section{
   background-image: url(../images/background-about-section-03.jpg);
-  background-position: top;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 680px;
