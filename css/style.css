@@ -10,3 +10,8 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: "Montserrat Medium";}
   position: absolute;
   z-index: 2;
 }
+.header .wrap-title{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
