@@ -51,9 +51,9 @@ p{font-family: "Montserrat Regular";}
 }
 .thumbnail-images{
   background-image: url(../images/bg-mid-home-06.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 90px;
-  padding-bottom: 560px;
+  background-position: top;
+  padding-top: 130px;
+  padding-bottom: 60px;
 }
