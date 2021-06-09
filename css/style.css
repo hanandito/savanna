@@ -60,4 +60,8 @@ p{font-family: "Montserrat Regular";}
   padding-top: 130px;
   padding-bottom: 60px;
   border-bottom-right-radius: 24rem;
+} 
+.contact-form{
+  border-top-left-radius: 24rem;
+  border-top-right-radius: 24rem;
 }
