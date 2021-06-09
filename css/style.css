@@ -27,6 +27,9 @@ p{font-family: "Montserrat Regular";}
 .text-red{
   color: #D06A51;
 }
+.text-gray{
+  color: #6D6E71;
+}
 .header .wrap-title{
   position: absolute;
   left: 50%;
@@ -45,4 +48,9 @@ p{font-family: "Montserrat Regular";}
   background-color: #D06A51;
   color: #fff;
   border-radius: 5px;
+}
+.thumbnail-images{
+  background-image: url(../images/bg-mid-home-06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
