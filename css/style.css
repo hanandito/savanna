@@ -84,3 +84,6 @@ input.form-control, select, textarea, option{
   background: none !important;
   border-radius: 0 !important;
 }
+.disclaimer p{
+  font-size: 0.75rem;
+}
