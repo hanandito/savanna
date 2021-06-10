@@ -128,4 +128,9 @@ input.form-control, select, textarea, option{
     width: 250px;
     float: right;
   }
+  .contact-form .button-red{
+    margin: auto;
+    text-align: center;
+    display: table;
+  }
 }
