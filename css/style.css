@@ -57,6 +57,9 @@ p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem;}
   color: #D06A51;
   border-radius: 10px;
 }
+.bg-gray{
+  background-color: #C6C5BA;
+}
 .thumbnail-images{
   background-image: url(../images/bg-mid-home-06.jpg);
   background-size: 100%;
