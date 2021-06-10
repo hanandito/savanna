@@ -90,5 +90,40 @@ input.form-control, select, textarea, option{
 .nav-savanna ul li{
   list-style-type: none;
   display: inline-block;
-  margin: 0 30px;
+  margin: 40px 40px;
+}
+.nav-savanna ul li a{
+  color: #113447;
+}
+.nav-savanna ul li a:hover{
+  text-decoration: none;
+}
+@media screen and (max-width: 414px) {
+  h1{
+    font-size: 1.7rem;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+  }
+  .nav-savanna{
+    display: none;
+  }
+  .header .wrap-title {
+    left: 37%;
+    bottom: 120px;
+    transform: translate(-50%);
+  }
+  p{font-size: 0.7rem;}
+  h6{font-size: 0.7rem;}
+  .about-section{
+    background-image: url(../images/background-about-section-03-mobile-04.jpg);
+    padding-top: 430px;
+  }
+  .thumbnail-images{
+    background-image: url(../images/bg-mid-home-06-mobile-04-05.jpg);
+    padding-top: 0;
+  }
+  .head-thumbnail-mobile{
+    width: 250px;
+    float: right;
+  }
 }
