@@ -10,7 +10,7 @@
   src: url(Montserrat-Regular.ttf) format("truetype");
 }
 h1, h2, h3, h4, h5, h6 {font-family: "Montserrat Medium";}
-p, a{font-family: "Montserrat Regular"; font-size: 0.85rem;}
+p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem;}
 .nav-savanna {
   position: absolute;
   z-index: 2;
@@ -50,12 +50,12 @@ p, a{font-family: "Montserrat Regular"; font-size: 0.85rem;}
 .button-red{
   background-color: #D06A51;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .button-white{
   background-color: #fff;
   color: #D06A51;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .thumbnail-images{
   background-image: url(../images/bg-mid-home-06.jpg);
@@ -67,10 +67,16 @@ p, a{font-family: "Montserrat Regular"; font-size: 0.85rem;}
   border-bottom-right-radius: 24rem;
 } 
 .contact-form{
-  border-top-left-radius: 24rem;
-  border-top-right-radius: 24rem;
+  padding-top: 100px;
+  background-image: url(../images/bottom-background-03.jpg);
+  background-position: top;
+  background-size: cover;
 }
 .daftar-sekarang{
   padding-top: 100px;
   padding-bottom: 100px;
+}
+input.form-control, select, textarea, option{
+  background: none !important;
+  border-radius: 0 !important;
 }
