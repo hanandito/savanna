@@ -4,11 +4,11 @@ $('.carousel-facilities').addClass('owl-carousel owl-theme').owlCarousel({
   items:2,
   responsive:{
    0: {
-     stagePadding: 30,
+     stagePadding: 40,
      items: 1,
-     dots: false,
+     dots: true,
      nav: false,
-     margin: 15
+     margin: 20
    },
    600: {
      items: 1,

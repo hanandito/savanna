@@ -122,6 +122,7 @@ input.form-control, select, textarea, option{
     background-image: url(../images/bg-mid-home-06-mobile-04-05.jpg);
     padding-top: 0;
     border-bottom-right-radius: 10rem;
+    padding-bottom: 150px;
   }
   .head-thumbnail-mobile{
     width: 250px;
