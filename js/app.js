@@ -1,4 +1,4 @@
-$('.carousel-ourbusiness').addClass('owl-carousel owl-theme').owlCarousel({
+$('.carousel-facilities').addClass('owl-carousel owl-theme').owlCarousel({
   loop:false,
   navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
   items:2,
