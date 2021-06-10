@@ -9,8 +9,8 @@
   font-family: "Montserrat Regular";
   src: url(Montserrat-Regular.ttf) format("truetype");
 }
-h1, h2, h3, h4, h5, h6, a {font-family: "Montserrat Medium";}
-p{font-family: "Montserrat Regular";}
+h1, h2, h3, h4, h5, h6 {font-family: "Montserrat Medium";}
+p, a{font-family: "Montserrat Regular"; font-size: 0.85rem;}
 .nav-savanna {
   position: absolute;
   z-index: 2;
@@ -50,6 +50,11 @@ p{font-family: "Montserrat Regular";}
 .button-red{
   background-color: #D06A51;
   color: #fff;
+  border-radius: 5px;
+}
+.button-white{
+  background-color: #fff;
+  color: #D06A51;
   border-radius: 5px;
 }
 .thumbnail-images{
