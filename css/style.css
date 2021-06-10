@@ -87,3 +87,11 @@ input.form-control, select, textarea, option{
 .disclaimer p{
   font-size: 0.75rem;
 }
+.nav-savanna ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 30px;
+}
+.nav-savanna ul li:last-child{
+    margin-right: 0;
+}
