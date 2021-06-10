@@ -92,6 +92,3 @@ input.form-control, select, textarea, option{
   display: inline-block;
   margin: 0 30px;
 }
-.nav-savanna ul li:last-child{
-    margin-right: 0;
-}
