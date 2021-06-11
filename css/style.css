@@ -180,7 +180,7 @@ input.form-control, select, textarea, option{
 .button-form{
   border: none;
 }
-input[type=text], input[type=textarea]{
+input[type=text], textarea{
   color: #fff !important;
 } 
 @media screen and (max-width: 414px) {
