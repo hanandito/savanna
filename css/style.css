@@ -177,6 +177,9 @@ input.form-control, select, textarea, option{
   width: 50px;
   height: 50px;
 }
+.button-form{
+  border: none;
+}
 @media screen and (max-width: 414px) {
   h1{
     font-size: 1.7rem;
