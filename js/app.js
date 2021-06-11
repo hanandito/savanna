@@ -23,3 +23,22 @@ $('.carousel-facilities').addClass('owl-carousel owl-theme').owlCarousel({
    }
  }
 })
+
+/*Animation: Moving Ornament on Scroll*/
+
+  $(window).scroll(function(){
+    windowTop = $(window).scrollTop();
+
+    $('.move-right').css({
+      'transform':'translateX('+(windowTop) * 0.1  +'px)'
+    });
+
+    $('.move-left').css({
+      'transform':'translateX('+(windowTop) * -0.1 +'px)'
+    });
+
+    $('.move-top').css({
+      'transform':'translateY('+(windowTop) * -0.1 +'px)'
+    });
+  });
+ // 

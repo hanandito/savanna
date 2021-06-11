@@ -1,6 +1,9 @@
 *{
   transition: all .3s;
 }
+body{
+  overflow-x: hidden;
+}
 @font-face{
   font-family: "Montserrat Medium";
   src: url(Montserrat-Medium.ttf) format("truetype");
@@ -10,7 +13,7 @@
   src: url(Montserrat-Regular.ttf) format("truetype");
 }
 h1, h2, h3, h4, h5, h6 {font-family: "Montserrat Medium";}
-p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem;}
+p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacing: 0.1px;}
 .nav-savanna {
   position: absolute;
   z-index: 2;
@@ -98,6 +101,67 @@ input.form-control, select, textarea, option{
 .nav-savanna ul li a:hover{
   text-decoration: none;
 }
+.wrap-whatsapp-button{
+  position: sticky;
+  top: 90vh;
+  z-index: 3;
+  margin-bottom: 30px;
+}
+.button-whatsapp-sticky{
+  position: absolute;
+  right: 20px;
+}
+.wrap-whatsapp-button .button-whatsapp-sticky img{
+  width: 55px;
+}
+/* Ornaments */
+.header .ornament-right{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ornament-top-brief{
+  position: absolute;
+  bottom: -250px;
+  left: 0;
+  z-index: 1;
+}
+.about-section .ornament-about{
+  position: absolute;
+  right: 100px;
+  bottom: -80px;
+}
+.usp-section{
+  padding-top: 6rem;
+}
+.thumbnail-images .ornament-thumbnail-top{
+  position: absolute;
+  bottom: -55px;
+  right: -40px;
+}
+.thumbnail-images .ornament-mid{
+  position: absolute;
+  bottom: 580px;
+  left: -360px;
+}
+.thumbnail-images .bottom-ornament{
+  position: absolute;
+  bottom: -120px;
+  right: -110px;
+}
+.contact-form .ornament-top{
+  position: absolute;
+  right: -270px;
+  top: 40px;
+}
+.contact-form .ornament-bottom{
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+}
+.move-left, .move-right, .move-top{
+  transition: none;
+}
 @media screen and (max-width: 414px) {
   h1{
     font-size: 1.7rem;
@@ -132,5 +196,41 @@ input.form-control, select, textarea, option{
     margin: auto;
     text-align: center;
     display: table;
+  }
+  .usp-section{
+    padding-top: 110px;
+    padding-bottom: 0;
+  }
+  .header .ornament-right {
+    right: -90px;
+    bottom: -140px;
+    width: 150px;
+  }
+  .ornament-top-brief {
+    bottom: -180px;
+    left: -80px;
+    width: 110px;
+  }
+  .about-section .ornament-about {
+    right: -160px;
+    width: 180px;
+  }
+  .thumbnail-images .ornament-thumbnail-top {
+    bottom: -35px;
+    right: -140px;
+    width: 100px;
+  }
+  .thumbnail-images .bottom-ornament {
+    bottom: -90px;
+    right: -260px;
+    width: 120px;
+  }
+  .contact-form{
+    background-image: url(../images/bottom-background-03_mobile-04.jpg);
+  }
+  .contact-form .ornament-top {
+    right: -360px;
+    top: -30px;
+    width: 100px;
   }
 }
