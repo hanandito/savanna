@@ -15,7 +15,7 @@ body{
 h1, h2, h3, h4, h5, h6 {font-family: "Montserrat Medium";}
 p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacing: 0.1px;}
 .nav-savanna {
-  position: fixed;
+  position: absolute;
   z-index: 2;
 }
 .text-light-blue{
@@ -162,6 +162,21 @@ input.form-control, select, textarea, option{
 .move-left, .move-right, .move-top{
   transition: none;
 }
+/* Position Stop */
+#developers{
+  position: absolute;
+  top: 430px;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+#cluster{
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
 @media screen and (max-width: 414px) {
   h1{
     font-size: 1.7rem;
@@ -232,5 +247,29 @@ input.form-control, select, textarea, option{
     right: -360px;
     top: -30px;
     width: 100px;
+  }
+  .side-menu{
+    position: fixed;
+    background-color: #d06a51;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+  }
+  .side-menu.active{
+    left: 0;
+  }
+  .nav-savanna ul{
+    text-align: center;
+    padding-left: 0;
+    padding-top: 100px;
+  }
+  .nav-savanna ul li{
+    display: block;
+  }
+  .nav-savanna ul li a{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.3px;
   }
 }
