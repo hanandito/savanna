@@ -191,6 +191,11 @@ input.form-control, select, textarea, option{
 input[type=text], textarea, select, option{
   color: #fff !important;
 } 
+.logo-footer{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 @media screen and (max-width: 414px) {
   h1{
     font-size: 1.7rem;
