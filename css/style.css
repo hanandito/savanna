@@ -50,6 +50,13 @@ p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacin
   padding-top: 0;
   padding-bottom: 61px;
 }
+.about-section .detail-section{
+  padding-top: 200px;
+}
+.about-section .brief-top{
+  padding-top: 50px;
+  padding-bottom: 56vh;
+}
 .button-red{
   background-color: #D06A51;
   color: #fff;
