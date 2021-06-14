@@ -51,11 +51,10 @@ p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacin
   padding-bottom: 61px;
 }
 .about-section .detail-section{
-  padding-top: 200px;
+  padding-top: 90vh;
 }
 .about-section .brief-top{
   padding-top: 50px;
-  padding-bottom: 56vh;
 }
 .button-red{
   background-color: #D06A51;
@@ -126,11 +125,12 @@ input.form-control, select, textarea, option{
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: 3;
 }
 .ornament-top-brief{
   position: absolute;
-  bottom: -250px;
-  left: 0;
+  bottom: -140px;
+  left: -100px;
   z-index: 1;
 }
 .about-section .ornament-about{
