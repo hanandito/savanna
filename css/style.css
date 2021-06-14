@@ -121,6 +121,12 @@ input.form-control, select, textarea, option{
 .wrap-whatsapp-button .button-whatsapp-sticky img{
   width: 55px;
 }
+.logo-footer-divider{
+  border-left: 1px solid #D06A51;
+  height: 80%;
+  float: right;
+  margin-right: 3rem;
+}
 /* Ornaments */
 .header .ornament-right{
   position: absolute;
