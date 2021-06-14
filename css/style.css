@@ -110,12 +110,13 @@ input.form-control, select, textarea, option{
 .wrap-whatsapp-button{
   position: sticky;
   top: 90vh;
-  z-index: 3;
+  z-index: 9;
 }
 .button-whatsapp-sticky{
   position: absolute;
   right: 20px;
   bottom: -30px;
+  z-index: 9;
 }
 .wrap-whatsapp-button .button-whatsapp-sticky img{
   width: 55px;
