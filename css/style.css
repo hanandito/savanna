@@ -47,7 +47,7 @@ p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacin
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 680px;
+  padding-top: 0;
   padding-bottom: 61px;
 }
 .button-red{
