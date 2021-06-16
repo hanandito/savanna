@@ -99,10 +99,16 @@ input.form-control, select, textarea, option{
 .nav-savanna ul li{
   list-style-type: none;
   display: inline-block;
-  margin: 40px 40px;
+  margin: 40px 0;
+  border-left: 2px solid #D06A51;
+  padding: 0 10px;
+}
+.nav-savanna ul li:first-child{
+  border: none;
 }
 .nav-savanna ul li a{
-  color: #113447;
+  color: #394850;
+  font-size: 16px;
 }
 .nav-savanna ul li a:hover{
   text-decoration: none;
