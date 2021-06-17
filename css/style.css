@@ -167,8 +167,8 @@ input.form-control, select, textarea, option{
 }
 .thumbnail-images .ornament-mid{
   position: absolute;
-  bottom: 580px;
-  left: -360px;
+  bottom: 330px;
+  left: -460px;
 }
 .thumbnail-images .bottom-ornament{
   position: absolute;
@@ -185,7 +185,7 @@ input.form-control, select, textarea, option{
   -webkit-columns: 3;
   -moz-columns: 3;
   width: 80%;
-  margin: 50px auto;
+  margin: 50px auto 150px;
 }
 .contact-form .ornament-top{
   position: absolute;
