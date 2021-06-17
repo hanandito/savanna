@@ -144,6 +144,12 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
   width: 50%;
   transition: all .3s;
 }
+.nav-savanna .menu-icon-wrap{
+  padding: 1.5rem;
+}
+.nav-savanna.solid .menu-icon-wrap{
+  padding: 0.8rem;
+}
 .wrap-whatsapp-button{
   position: sticky;
   top: 90vh;
