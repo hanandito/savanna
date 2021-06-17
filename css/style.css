@@ -21,6 +21,7 @@ a:hover{
   position: fixed;
   z-index: 2;
   transition: all .3s;
+  z-index: 9;
 }
 .text-light-blue{
   color: #6C919C;
