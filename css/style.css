@@ -176,6 +176,17 @@ input.form-control, select, textarea, option{
   right: -110px;
   z-index: 2;
 }
+.thumbnail-images .title-thumbnails{
+  margin-top: -85px;
+}
+.thumbnail-images .detail-list{
+  list-style-type: none;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  width: 80%;
+  margin: 50px auto;
+}
 .contact-form .ornament-top{
   position: absolute;
   right: -270px;
