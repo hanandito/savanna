@@ -265,6 +265,9 @@ input[type=text], textarea, select, option{
   transform: translateY(-50%);
 }
 @media screen and (max-width: 414px) {
+  body{
+    overflow-x: hidden;
+  }
   h1{
     font-size: 1.8rem;
     line-height: 35px;
@@ -375,5 +378,11 @@ input[type=text], textarea, select, option{
     position: relative;
     top: unset;
     transform: none;
+  }
+  .nav-savanna .img-logo {
+    width: 106px;
+  }
+  .nav-savanna.solid .img-logo {
+    width: 75px;
   }
 }
