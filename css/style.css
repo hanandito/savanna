@@ -363,4 +363,9 @@ input[type=text], textarea, select, option{
   .thumbnail-images .title-thumbnails {
     margin-top: 50px;
   }
+  .logo-footer {
+    position: relative;
+    top: unset;
+    transform: none;
+  }
 }
