@@ -321,6 +321,9 @@ input[type=text], textarea, select, option{
     font-weight: bold;
     letter-spacing: 0.3px;
   }
+  .nav-savanna.solid{
+    background-color: #fff;
+  }
   #developers {
     position: absolute;
     top: 260px;
