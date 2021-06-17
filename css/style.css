@@ -360,4 +360,7 @@ input[type=text], textarea, select, option{
   .nav-savanna .img-logo{
     margin-bottom: -40px;
   }
+  .thumbnail-images .title-thumbnails {
+    margin-top: 50px;
+  }
 }
