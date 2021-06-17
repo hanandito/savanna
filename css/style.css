@@ -80,7 +80,7 @@ a:hover{
   background-repeat: no-repeat;
   background-position: top;
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 0;
   border-bottom-right-radius: 24rem;
 } 
 .contact-form{
@@ -203,7 +203,7 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
 }
 .thumbnail-images .bottom-ornament{
   position: absolute;
-  bottom: -120px;
+  bottom: -140px;
   right: -110px;
   z-index: 2;
 }
