@@ -104,7 +104,7 @@ input.form-control, select, textarea, option{
   display: inline-block;
   margin: 40px 0;
   border-left: 2px solid #D06A51;
-  padding: 0 20px;
+  padding: 0 23px;
 }
 .nav-savanna ul li:first-child{
   border: none;
@@ -115,6 +115,9 @@ input.form-control, select, textarea, option{
 }
 .nav-savanna ul li a:hover{
   text-decoration: none;
+}
+.nav-savanna .daftar-sekarang-wrapper{
+  padding-top: 35px;
 }
 .wrap-whatsapp-button{
   position: sticky;
