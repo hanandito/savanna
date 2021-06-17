@@ -17,9 +17,10 @@ p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacin
 a:hover{
   text-decoration: none;
 }
-.nav-savanna {
-  position: absolute;
+.nav-savanna{
+  position: fixed;
   z-index: 2;
+  transition: all .3s;
 }
 .text-light-blue{
   color: #6C919C;
@@ -118,6 +119,23 @@ input.form-control, select, textarea, option{
 }
 .nav-savanna .daftar-sekarang-wrapper{
   padding-top: 35px;
+}
+.nav-savanna.solid{
+  background-color: #fff;
+}
+.nav-savanna .menu-desktop.shrink ul li{
+  margin: 20px 0;
+}
+.nav-savanna .menu-desktop.shrink .daftar-sekarang-wrapper{
+  padding-top: 15px;
+}
+.nav-savanna .img-logo{
+  width: 70%;
+  margin-bottom: -50px;
+}
+.nav-savanna.solid .img-logo{
+  width: 50%;
+  transition: all .3s;
 }
 .wrap-whatsapp-button{
   position: sticky;
@@ -320,9 +338,6 @@ input[type=text], textarea, select, option{
     color: #fff;
     font-weight: bold;
     letter-spacing: 0.3px;
-  }
-  .nav-savanna.solid{
-    background-color: #fff;
   }
   #developers {
     position: absolute;

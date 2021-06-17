@@ -79,7 +79,9 @@ $(window).scroll(function() {
   // checks if window is scrolled more than 500px, adds/removes solid class
   if($(this).scrollTop() > 70) {
       $('.nav-savanna').addClass('solid');
+      $('.nav-savanna .menu-desktop').addClass('shrink');
   } else {
       $('.nav-savanna').removeClass('solid');
+      $('.nav-savanna .menu-desktop').removeClass('shrink');
   }
 });
