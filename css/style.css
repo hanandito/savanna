@@ -367,7 +367,7 @@ bottom: 0;
     background-image: url(../images/bottom-background-03_mobile-04.jpg);
   }
   .contact-form .ornament-top {
-    right: -360px;
+    right: -470px;
     top: -30px;
     width: 100px;
   }
@@ -425,5 +425,8 @@ bottom: 0;
   } 
   .disclaimer p{
     font-size: 0.5rem;
+  }
+  .daftar-sekarang {
+    padding-bottom: 20px;
   }
 }
