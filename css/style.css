@@ -13,7 +13,7 @@ body{
   src: url(Montserrat-Regular.ttf) format("truetype");
 }
 h1, h2, h3, h4, h5, h6 {font-family: "Montserrat Medium"; letter-spacing: 0.3px;}
-p, a, label{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacing: 0.3px;}
+p, a, label, input{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacing: 0.3px;}
 a:hover{
   text-decoration: none;
 }
