@@ -150,6 +150,9 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
 .nav-savanna.solid .menu-icon-wrap{
   padding: 0.6rem;
 }
+.nav-savanna .menu-desktop ul li a:hover{
+  color: #d06a51;
+}
 .wrap-whatsapp-button{
   position: sticky;
   top: 90vh;
