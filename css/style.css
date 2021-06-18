@@ -13,6 +13,13 @@
   font-family: "Montserrat Regular";
   src: url(Montserrat-Regular.ttf) format("truetype");
 }
+@font-face{
+  font-family: "Montserrat Bold";
+  src: url(Montserrat-Bold.ttf) format("truetype");
+}
+.font-montserrat-bold{
+  font-family: "Montserrat Bold";
+}
 h1, h2, h3, h4, h5, h6 {font-family: "Montserrat Medium"; letter-spacing: 0.3px;}
 p, a, label, input{font-family: "Montserrat Regular"; font-size: 0.85rem; letter-spacing: 0.3px;}
 a:hover{
@@ -320,7 +327,7 @@ bottom: 0;
     background-image: url(../images/bg-mid-home-06-mobile-04-05.jpg);
     padding-top: 0;
     border-bottom-right-radius: 10rem;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
   }
   .head-thumbnail-mobile{
     width: 250px;
