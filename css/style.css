@@ -323,6 +323,9 @@ bottom: 0;
   .usp-section{
     padding-top: 110px;
     padding-bottom: 0;
+    background-image: url(../images/usp-section.jpg);
+    background-size: cover;
+    background-position: center;
   }
   .header .ornament-right {
     right: -90px;
