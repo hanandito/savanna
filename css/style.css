@@ -66,6 +66,15 @@ a:hover{
   color: #fff;
   border-radius: 10px;
 }
+.button-red:hover{
+  background-color: #fff;
+  color: #D06A51;
+}
+.daftar-sekarang-wrapper .button-red:hover{
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08);
+}
 .button-white{
   background-color: #fff;
   color: #D06A51;
