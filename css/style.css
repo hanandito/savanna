@@ -1,5 +1,6 @@
 *{
   transition: all .3s;
+  -webkit-appearance: menulist;
 }
 .wrap-all{
   overflow-x: hidden;
