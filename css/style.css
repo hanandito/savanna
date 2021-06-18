@@ -303,14 +303,20 @@ select, option{
 position: absolute;
 bottom: 0;
 }
+.usp-section h6{
+  line-height: 20px;
+}
 @media screen and (max-width: 414px) {
   body{
     overflow-x: hidden;
   }
   h1{
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     line-height: 35px;
     letter-spacing: 0.2px;
+  }
+  .header h1{
+    font-size: 1.9rem;
   }
   .logo-wrap img{
     width: 120px;
@@ -450,5 +456,8 @@ bottom: 0;
   }
   .wrap-whatsapp-button{
     top: 91vh;
+  }
+  .usp-section h6{
+    line-height: 17px;
   }
 }
