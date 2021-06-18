@@ -1,6 +1,5 @@
 *{
   transition: all .3s;
-  -webkit-appearance: menulist;
 }
 .wrap-all{
   overflow-x: hidden;
@@ -290,6 +289,9 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
 input[type=text], textarea, select, option{
   color: #fff !important;
 } 
+select, option{
+  -webkit-appearance: menulist;
+}
 .logo-footer{
   position: absolute;
   top: 40%;
