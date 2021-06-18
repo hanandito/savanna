@@ -273,7 +273,7 @@ input[type=text], textarea, select, option{
 } 
 .logo-footer{
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
 }
 @media screen and (max-width: 414px) {
