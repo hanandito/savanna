@@ -1,7 +1,7 @@
 *{
   transition: all .3s;
 }
-body{
+body, html{
   overflow-x: hidden;
 }
 @font-face{
