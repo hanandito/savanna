@@ -80,6 +80,13 @@ a:hover{
   color: #D06A51;
   border-radius: 10px;
 }
+.button-white:hover{
+  background-color: #113447;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08);
+}
 .bg-gray{
   background-color: #C6C5BA;
 }
