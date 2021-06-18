@@ -72,7 +72,7 @@ a:hover{
 .button-red{
   background-color: #D06A51;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .button-red:hover{
   background-color: #fff;
@@ -86,7 +86,7 @@ a:hover{
 .button-white{
   background-color: #fff;
   color: #D06A51;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .button-white:hover{
   background-color: #113447;
