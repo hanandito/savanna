@@ -429,4 +429,10 @@ bottom: 0;
   .daftar-sekarang {
     padding-bottom: 20px;
   }
+  input[type="text"], select, option{
+    height: 50px !important;
+  }
+  textarea.form-control{
+    height: 310px;
+  }
 }
