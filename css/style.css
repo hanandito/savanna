@@ -328,6 +328,8 @@ bottom: 0;
     margin: auto;
     text-align: center;
     display: table;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .usp-section{
     padding-top: 110px;
