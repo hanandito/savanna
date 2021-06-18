@@ -276,6 +276,9 @@ input[type=text], textarea, select, option{
   top: 40%;
   transform: translateY(-50%);
 }
+.contact-form .button-red{
+  width: 200px;
+}
 @media screen and (max-width: 414px) {
   body{
     overflow-x: hidden;
