@@ -430,7 +430,7 @@ bottom: 0;
   .about-section .detail-section {
     padding-top: 50vh;
   }
-  .detail-address, .detail-contact{
+  .detail-address, .detail-contact, .detail-contact a{
     font-size: 0.6rem;
   } 
   .disclaimer p{
