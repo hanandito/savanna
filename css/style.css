@@ -278,6 +278,8 @@ input[type=text], textarea, select, option{
 }
 .contact-form .button-red{
   width: 200px;
+position: absolute;
+bottom: 0;
 }
 @media screen and (max-width: 414px) {
   body{
