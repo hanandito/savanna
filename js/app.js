@@ -52,7 +52,7 @@ $('.carousel-facilities').addClass('owl-carousel owl-theme').owlCarousel({
  // 
  $(document).ready(function(){
   // Add smooth scrolling to all links
-  $(".side-menu a, .nav-savanna ul li a").on('click', function(event) {
+  $(".side-menu a, .nav-savanna ul li a, .nav-savanna a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
