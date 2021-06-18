@@ -182,6 +182,8 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
 }
 .wrap-whatsapp-button .button-whatsapp-sticky img{
   width: 55px;
+  filter: drop-shadow(2px 2px 3px #595959);
+  -webkit-filter: drop-shadow(2px 2px 3px #595959);
 }
 .logo-footer-divider{
   border-left: 1px solid #D06A51;
@@ -347,6 +349,7 @@ bottom: 0;
   .about-section .ornament-about {
     right: -160px;
     width: 180px;
+    bottom: -150px;
   }
   .thumbnail-images .ornament-thumbnail-top {
     bottom: -35px;
