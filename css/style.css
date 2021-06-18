@@ -412,4 +412,7 @@ bottom: 0;
   .nav-savanna.solid .img-logo {
     width: 75px;
   }
+  .about-section .detail-section {
+    padding-top: 50vh;
+  }
 }
