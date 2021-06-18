@@ -172,7 +172,7 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
 }
 .wrap-whatsapp-button{
   position: fixed;
-  top: 95vh;
+  top: 91vh;
   z-index: 8;
   right: 0;
 }
@@ -436,5 +436,8 @@ bottom: 0;
   }
   textarea.form-control{
     height: 310px;
+  }
+  .wrap-whatsapp-button{
+    top: 91vh;
   }
 }
