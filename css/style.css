@@ -1,8 +1,9 @@
 *{
   transition: all .3s;
 }
-body{
+.wrap-all{
   overflow-x: hidden;
+  position: relative;
 }
 @font-face{
   font-family: "Montserrat Medium";
@@ -170,9 +171,10 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
   color: #d06a51;
 }
 .wrap-whatsapp-button{
-  position: sticky;
-  top: 90vh;
+  position: fixed;
+  top: 95vh;
   z-index: 8;
+  right: 0;
 }
 .button-whatsapp-sticky{
   position: absolute;
